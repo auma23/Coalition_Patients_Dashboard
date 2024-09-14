@@ -8,11 +8,11 @@ import LabResults from '../Components/LabResults';
 const HomePage = () => {
   return (
     <div className="flex">
-      {/* Left sidebar: Patient List */}
+     
       <div className="w-1/4 h-screen overflow-y-scroll bg-gray-100">
         <PatientList />
       </div>
-      {/* Main content */}
+      
       <div className="w-3/4 p-4 flex flex-col space-y-4">
         <DiagnosisHistory />
         <div className="flex space-x-4">
